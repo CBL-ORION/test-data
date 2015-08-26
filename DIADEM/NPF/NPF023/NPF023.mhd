@@ -1,0 +1,8 @@
+ObjectType = Image
+NDims = 3
+BinaryData = True
+BinaryDataByteOrderMSB = False
+ElementSpacing =  1.0000  1.0000   2.1000
+DimSize = 1024 1024 57
+ElementType = MET_USHORT
+ElementDataFile = NPF023.raw
