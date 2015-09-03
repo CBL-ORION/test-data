@@ -1,4 +1,7 @@
 #!/bin/sh
+# Repo info:
+# <http://www.itk.org/Wiki/ITK/Git>
+# <http://itk.org/ITKData.git>
 mkdir HeadMRVolume
 wget --content-disposition -P HeadMRVolume \
 	"http://itk.org/gitweb?p=ITKData.git;a=blob_plain;f=Input/HeadMRVolume.mhd;hb=HEAD" \
