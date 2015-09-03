@@ -1,0 +1,6 @@
+#!/bin/sh
+mkdir HeadMRVolume
+wget --content-disposition -P HeadMRVolume \
+	"http://itk.org/gitweb?p=ITKData.git;a=blob_plain;f=Input/HeadMRVolume.mhd;hb=HEAD" \
+	"http://itk.org/gitweb?p=ITKData.git;a=blob_plain;f=Input/HeadMRVolume.raw;hb=HEAD"
+#git archive --remote=git://itk.org/ITKData.git HEAD:Input HeadMRVolume.{mhd,raw} | tar -x -C HeadMRVolume
